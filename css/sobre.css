@@ -1,0 +1,39 @@
+.sobre{
+  display: flex;
+  padding: 40px 100px;
+  gap: 100px;
+  background-color: #f4eff8;
+}
+
+.sobre_infos{
+  display:flex;
+   justify-content: center; 
+   align-items: center; 
+  flex-direction: column;
+  gap: 30px;
+  h2{
+    color: var(--cor-principal);
+    font-size: 50px;
+    font-family: "Montserrat", serif;
+    letter-spacing: 4px;
+    font-weight: 800;
+    align-self: flex-start;
+  }
+  p{
+    line-height: 2;
+    color: var(--cor-texto);
+    font-size: 24px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+.sobre{
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+}

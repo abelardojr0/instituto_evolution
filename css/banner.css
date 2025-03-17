@@ -1,0 +1,77 @@
+.banner{
+  background-image: url('https://arquitetodebolso.com.br/wp-content/uploads/2024/02/70494_copy_Unnamed-Space-9.jpeg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.banner-infos{
+  background: linear-gradient(to top, 
+  #3456A7 0%,  
+  #3456A7 15%,  /* Azul sólido apenas nos primeiros 15% */
+  rgba(52, 86, 167, 0.85) 30%,  
+  rgba(52, 86, 167, 0.6) 45%,  
+  rgba(52, 86, 167, 0.3) 60%,  
+  rgba(52, 86, 167, 0.1) 75%,  
+  rgba(52, 86, 167, 0.05) 85%,  
+  rgba(52, 86, 167, 0) 100%  /* Transparente total */
+);
+
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+
+  color: var(--cor-base);
+  h2 {
+    font-size: 70px;
+    font-family: 'Bomeffa', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    position: relative;
+    z-index: 4;
+  }
+  
+  h2::before {
+    content: '';
+    width: 280px;
+    height: 15px;
+    background-color: var(--cor-secundaria);
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+    z-index: -1;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%, 10% 50%);
+  }
+  
+  p{
+    font-size: 18px;
+  }
+  a{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-base);
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    &:hover{
+      transform: scale(1.08);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  
+.banner-infos{
+  height: 90%;
+  width: 100%;
+  padding: 0px 30px;
+}
+}

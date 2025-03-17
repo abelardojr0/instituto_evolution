@@ -1,0 +1,127 @@
+.rodape{
+  background-color: var(--cor-principal);
+  color: var(--cor-base);
+}
+.base{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:50px;
+  font-family: "Montserrat", serif;
+  text-transform: uppercase;
+}
+
+.direitos{
+  background-color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0px;
+  font-size: 12px;
+}
+
+.rodape_infos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.rodape_infos_logo{
+  max-width: 300px;
+}
+
+.rodape_infos_nome{
+  font-weight: bold;
+}
+.rodape_infos_texto{
+  letter-spacing: 1px;
+}
+.rodape_infos_detalhe{
+  font-style: italic;
+}
+
+
+.rodape_menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rodape_menu_item{
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  font-size: 18px;
+  border: 1px solid var(--cor-principal);
+  color: var(--cor-base);
+
+
+}
+
+.rodape_menu_item:hover{
+  text-decoration: underline;
+}
+
+.rodape_socials{
+  display: flex;
+  max-width: 400px;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.rodape_links_icons_item{
+  color: var(--cor-base);
+
+  display: flex;
+  gap: 10px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.rodape_links_icons_item:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .rodape{
+    padding:5px;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  
+  
+  .rodape_infos_logo{
+    max-width: 100px;
+  }
+  
+  
+  .rodape_menu{
+    display: none;
+  }
+  
+  .rodape_menu_item{
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  
+  .rodape_socials{
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .rodape_links_icons_item{
+    gap: 5px;
+    font-size: 14px;
+  }
+
+
+}

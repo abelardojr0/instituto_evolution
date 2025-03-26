@@ -134,6 +134,7 @@
   .cabecalho {
     padding: 10px;
     position: static;
+    background:#3456A7;
   }
 
   .cabecalho_logo{
@@ -146,7 +147,7 @@
   .cabecalho_nav {
     display: none;
     position: absolute;
-    top: 60px;
+    top: 90px;
     right: 0;
     background-color: var(--cor-principal);
     width: 100%;

@@ -128,13 +128,7 @@ header.hidden {
 .instagram .swiper-wrapper img {
   width: 100%;
 	width: 200px;
-	height: 200px;
 	transition: 0.3s ease-in-out;
-}
-
-.swiper-wrapper img:hover {
-	transform: scale(1.05);
-	z-index: 99999;
 }
 
 /* Ajusta a posição das setas */
@@ -176,7 +170,7 @@ header.hidden {
 
 .sobre .swiper-slide img {
   width: 100%;
-  max-width: 800px;
+  max-width: 750px;
   height: auto;
   border-radius: 30px;
   transition: 0.3s ease-in-out;
@@ -217,7 +211,6 @@ main{
 	.swiper-wrapper img {
 		width: 100%;
 		width: 150px;
-		height: 150px;
 		border-radius: 10px;
 		transition: 0.3s ease-in-out;
 	}
@@ -231,6 +224,15 @@ main{
 		background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhor visibilidade */
 		color: white; /* Deixa as setas brancas */
 		border-radius: 50%; /* Deixa as setas redondas */
+	}
+
+
+	.sobre .swiper-slide img {
+		width: 100%;
+		max-width: 300px;
+		height: auto;
+		border-radius: 30px;
+		transition: 0.3s ease-in-out;
 	}
 	
 }

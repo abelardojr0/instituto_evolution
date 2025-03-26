@@ -1,5 +1,5 @@
 .banner{
-  background-image: url('https://arquitetodebolso.com.br/wp-content/uploads/2024/02/70494_copy_Unnamed-Space-9.jpeg.webp');
+  background-image: url('../assets/fundo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,13 +11,13 @@
 .banner-infos{
   background: linear-gradient(to top, 
   #3456A7 0%,  
-  #3456A7 15%,  /* Azul sólido apenas nos primeiros 15% */
+  #3456A7 15%,  
   rgba(52, 86, 167, 0.85) 30%,  
   rgba(52, 86, 167, 0.6) 45%,  
   rgba(52, 86, 167, 0.3) 60%,  
   rgba(52, 86, 167, 0.1) 75%,  
   rgba(52, 86, 167, 0.05) 85%,  
-  rgba(52, 86, 167, 0) 100%  /* Transparente total */
+  rgba(52, 86, 167, 0) 100%  
 );
 
   height: 80%;

@@ -123,11 +123,11 @@ header.hidden {
   align-items: center;
 	flex-direction: column;
   width: auto !important;
+	text-decoration: none;
 }
 
-a{
+.swiper-slide p{
 		color: #092054;
-		text-decoration: none;
 		margin-bottom: 50px;
 		font-weight: bold;
 }

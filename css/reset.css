@@ -121,8 +121,15 @@ header.hidden {
   display: flex;
   justify-content: center;
   align-items: center;
+	flex-direction: column;
   width: auto !important;
+}
 
+a{
+		color: #092054;
+		text-decoration: none;
+		margin-bottom: 50px;
+		font-weight: bold;
 }
 
 .instagram .swiper-wrapper img {
@@ -178,7 +185,7 @@ header.hidden {
 
 .sobre .swiper-pagination {
   position: absolute;
-  bottom: 10px; /* Ajusta a posição para ficar visível */
+  bottom: 10px; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
